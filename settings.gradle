@@ -1,2 +1,8 @@
 rootProject.name = 'cashbackhacker'
+include 'src:test:untitled'
+findProject(':src:test:untitled')?.name = 'untitled'
+include 'src:test'
+findProject(':src:test')?.name = 'test'
+include 'src:test'
+findProject(':src:test')?.name = 'test'
 
